@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Orders API</title>
-    <meta charset="utf-8">
-    <style>
-      
+
 body {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 13px;
@@ -101,51 +95,3 @@ table th, table td {
   line-height: 18px;
   text-align: left;
 }
-
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Orders API</h1>
-
-      <div class="article">
-        <h2>Listing items</h2>
-        <h3>GET /api/v1/items</h3>
-
-
-
-          <h3>Request</h3>
-
-            <h4>Headers</h4>
-            <pre class="request headers">Version: HTTP/1.0
-Host: example.org
-Cookie: </pre>
-
-          <h4>Route</h4>
-          <pre class="request route highlight">GET /api/v1/items</pre>
-
-
-
-
-            <h3>Response</h3>
-              <h4>Headers</h4>
-              <pre class="response headers">X-Frame-Options: SAMEORIGIN
-X-XSS-Protection: 0
-X-Content-Type-Options: nosniff
-X-Download-Options: noopen
-X-Permitted-Cross-Domain-Policies: none
-Referrer-Policy: strict-origin-when-cross-origin
-Content-Type: application/json; charset=utf-8
-ETag: W/&quot;bf702ba9291e498576803fbd69ad7615&quot;
-Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: f29af852-74cd-431b-a264-bc54c0258218
-X-Runtime: 0.020698
-Content-Length: 63</pre>
-            <h4>Status</h4>
-            <pre class="response status">200 OK</pre>
-              <h4>Body</h4>
-              <pre class="response body">[binary data]</pre>
-      </div>
-    </div>
-  </body>
-</html>
