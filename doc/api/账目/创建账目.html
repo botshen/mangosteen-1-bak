@@ -147,7 +147,7 @@ table th, table td {
               </tr>
               <tr>
                 <td class="required">
-                    <span class="name">tags_id</span>
+                    <span class="name">tag_ids</span>
                 </td>
                 <td>
                   <span class="description">标签列表（只传ID）</span>
@@ -199,10 +199,10 @@ table th, table td {
               </tr>
               <tr>
                 <td>
-                    <span class="name">resource[tags_id]</span>
+                    <span class="name">resource[tag_ids]</span>
                 </td>
                 <td>
-                  <span class="description">Resource tags</span>
+                  <span class="description">Resource tag ids</span>
                 </td>
               </tr>
             </tbody>
@@ -212,7 +212,7 @@ table th, table td {
 
             <h4>Headers</h4>
             <pre class="request headers">Version: HTTP/1.0
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Nzc2NTY5NDZ9.A_jBPlkW9vrOWyQJH3o6Jli1KY_5gXSoXd7G_Q7u_6Q
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Nzc2NTc1MzN9.vr0uOl9TJL86CO009_Y7AR4rmKVnvvzCHtCYxsQ3xjI
 Accept: application/json
 Content-Type: application/json
 Host: example.org
@@ -223,7 +223,7 @@ Cookie: </pre>
 
 
             <h4>Body</h4>
-            <pre class="request body">{"amount":9900,"kind":"expenses","happen_at":"2020-10-30T00:00:00+08:00","tags_id":[2,3]}</pre>
+            <pre class="request body">{"amount":9900,"kind":"expenses","happen_at":"2020-10-30T00:00:00+08:00","tag_ids":[2,3]}</pre>
 
 
             <h3>Response</h3>
@@ -236,10 +236,10 @@ X-Permitted-Cross-Domain-Policies: none
 Referrer-Policy: strict-origin-when-cross-origin
 Content-Type: application/json; charset=utf-8
 Vary: Accept
-ETag: W/&quot;eadb2a1970afc4c3790e243d7926f135&quot;
+ETag: W/&quot;3ce3f7fd7e7f1fa013811821d0c551aa&quot;
 Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: dcba067d-2e07-49b4-b8b0-69793cc700fe
-X-Runtime: 0.002885
+X-Request-Id: 5d42d069-c27c-4c51-99ac-14b136ebf579
+X-Runtime: 0.003590
 Content-Length: 213</pre>
             <h4>Status</h4>
             <pre class="response status">200 OK</pre>
@@ -250,13 +250,13 @@ Content-Length: 213</pre>
     &quot;user_id&quot;: 2,
     &quot;amount&quot;: 9900,
     &quot;note&quot;: null,
-    &quot;tags_id&quot;: [
+    &quot;tag_ids&quot;: [
       2,
       3
     ],
     &quot;happen_at&quot;: &quot;2020-10-29T16:00:00.000Z&quot;,
-    &quot;created_at&quot;: &quot;2023-03-01T05:49:06.905Z&quot;,
-    &quot;updated_at&quot;: &quot;2023-03-01T05:49:06.905Z&quot;,
+    &quot;created_at&quot;: &quot;2023-03-01T05:58:53.394Z&quot;,
+    &quot;updated_at&quot;: &quot;2023-03-01T05:58:53.394Z&quot;,
     &quot;kind&quot;: &quot;expenses&quot;
   }
 }</pre>

@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_26_122445) do
     t.bigint "user_id"
     t.integer "amount"
     t.text "note"
-    t.bigint "tags_id", array: true
+    t.bigint "tag_ids", array: true
     t.datetime "happen_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
